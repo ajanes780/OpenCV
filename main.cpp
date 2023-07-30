@@ -1,19 +1,31 @@
-#include <opencv2/imgcodecs.hpp>
-#include <opencv2/highgui.hpp>
-#include <opencv2/imgproc.hpp>
+
 #include <iostream>
 
-using namespace cv;
 using namespace std;
 
 
-/////////////////  Images  //////////////////////
-
 int main() {
 
-    string path = "/Users/aaronjanes/CLionProjects/LearnC/Resources/test.png";
-    Mat img = imread(path);
-    imshow("Image", img);
-    waitKey(0);
+//
+//    int numbers[]{1, 2, 3, 4, 5};
+//    // Traditional C style for loop
+//    for (int i = 0; i < sizeof(numbers) / sizeof(int); i++) {
+//        cout << numbers[i] << endl;
+//
+//    }
+
+    cout << "--------------------- " << endl;
+
+//    for (int number: numbers)
+//        cout << number << endl;
+
+
+
+    string name{"Aaron Janes"};
+
+    for (char c: name) {
+        cout << c << endl;
+    };
+
     return 0;
 }
