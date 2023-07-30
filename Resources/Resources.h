@@ -1,0 +1,8 @@
+//
+// Created by Aaron Janes on 2023-07-30.
+//
+
+#ifndef OPENCVCOURSE_RESOURCES_H
+#define OPENCVCOURSE_RESOURCES_H
+
+#endif //OPENCVCOURSE_RESOURCES_H
